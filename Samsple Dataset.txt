@@ -1,0 +1,30 @@
+// Sample dataset for tags:
+
+[
+    {
+        "instruction": "You will be given a Phone Conversation transcript between user and another caller as input. Correctly categorize the profession of the other person into Carpenter, Plumber, Electrician, Doctor, Vet ,Property Broker, Bank Employee, Restaurant, Hotel, Tech Support. The conversation can also be with someone who is not a professional. In such a case, output General + profession. \n",
+        "input": "Conversation: John: Hello, this is John speaking. \nCaller: Hi John, this is Mike. I understand you're looking for some help with your kitchen cabinets. \nJohn: Yes, Mike. The hinges on a couple of them are loose and one of the doors has come off completely. \nCaller: I can definitely help with that. When would be a good time for me to come over and take a look? \nJohn: How about this Saturday afternoon? \nCaller: That works for me. I'll be there around 2 PM. See you then. \nJohn: Great, see you Saturday, Mike.",
+        "output": "Carpenter<|endoftext|>",
+        "system": "Answer accurately according to the instruction in the specified format only."
+    },
+    {
+        "instruction": "You will be given a Phone Conversation transcript between user and another caller as input. Correctly categorize the profession of the other person into Carpenter, Plumber, Electrician, Doctor, Vet ,Property Broker, Bank Employee, Restaurant, Hotel, Tech Support. The conversation can also be with someone who is not a professional. In such a case, output General + profession. \n",
+        "input": "Conversation: User: Hello, this is John speaking. How can I assist you today?\nCaller: Hi John, this is Mike. I was wondering if you could give me some advice on fixing a wobbly table leg. I've tried tightening the screws, but it's still not stable.\nUser: Oh, sure Mike. Have you checked if the leg is properly aligned with the table top? Sometimes, it just needs a bit of adjustment.\nCaller: I did check, but I'm not sure how to adjust it. I thought about using shims, but I'm not confident in my skills.\nUser: Shims can work, but if you're not comfortable, you might want to take it to a professional. They can ensure it's fixed properly without causing any damage.\nCaller: That's a good idea. I'll look into finding someone local who can help. Thanks, John!",
+        "output": "General Carpenter<|endoftext|>",
+        "system": "Answer accurately according to the instruction in the specified format only."
+    },
+    {
+        "instruction": "You will be given a Phone Conversation transcript between user and another caller as input. Correctly categorize the profession of the other person into Carpenter, Plumber, Electrician, Doctor, Vet ,Property Broker, Bank Employee, Restaurant, Hotel, Tech Support. The conversation can also be with someone who is not a professional. In such a case, output General + profession. \n",
+        "input": "Conversation: Caller: Hello, this is Mike from the Handyman Services. May I speak with John?\nUser: Speaking. Hi Mike, how can I assist you today?\nCaller: Hi John, I'm calling regarding the furniture repair job we discussed last week. I wanted to confirm the details and schedule a visit.\nUser: Yes, Mike. I remember our conversation. When are you planning to come over?\nCaller: I can come over this Friday at 10 AM. Does that work for you?\nUser: That works perfectly, Mike. I'll make sure everything is ready for your visit.\nCaller: Great, John. I'll see you on Friday then. If you have any other concerns or additional tasks, feel free to let me know.\nUser: Will do, Mike. Thanks for getting in touch.\nCaller: You're welcome, John. Have a great day!\n",
+        "output": "Carpenter<|endoftext|>",
+        "system": "Answer accurately according to the instruction in the specified format only."
+    },
+    {
+        "instruction": "You will be given a Phone Conversation transcript between user and another caller as input. Correctly categorize the profession of the other person into Carpenter, Plumber, Electrician, Doctor, Vet ,Property Broker, Bank Employee, Restaurant, Hotel, Tech Support. The conversation can also be with someone who is not a professional. In such a case, output General + profession. \n",
+        "input": "Conversation: Caller: Hello, this is Mike from the neighborhood. I heard you were looking for someone to fix your kitchen cabinets. I know a thing or two about carpentry and I could give you a hand if you need it.\nUser: Oh, Mike, that's really kind of you. I didn't know you had those skills.\nCaller: Yeah, I've done a bit of work around my own house. Nothing professional, but I can handle basic repairs.\nUser: That's great, Mike. I'll definitely take you up on your offer. When can you come over?\nCaller: How about this weekend? I have some free time on Saturday afternoon.\nUser: Sounds good to me. I'll see you then, Mike. Thanks again.",
+        "output": "General Carpenter<|endoftext|>",
+        "system": "Answer accurately according to the instruction in the specified format only."
+    }
+]
+
+=====================
